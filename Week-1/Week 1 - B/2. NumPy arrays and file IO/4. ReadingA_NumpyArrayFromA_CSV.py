@@ -24,4 +24,4 @@ def CSVtoList(CSVfile):
 
 
 print(np.array(CSVtoList("data.csv")))
-print(np.loadtxt("B/data.csv", delimiter=','))
+print(np.loadtxt("2. NumPy arrays and file IO/data.csv", delimiter=','))
