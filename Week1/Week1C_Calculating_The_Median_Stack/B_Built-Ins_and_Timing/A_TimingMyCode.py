@@ -21,32 +21,31 @@ npMean = nptimeOver - nptimeStart
 
 
 if npMean > pyMean:
-	print(f"Py's Mean Won! \n"
-	      f"It took just {pyMean}s \n"
-	      f"While Np took {npMean}s \n")
+    print(
+        f"Py's Mean Won! \n" f"It took just {pyMean}s \n" f"While Np took {npMean}s \n"
+    )
 elif pyMean > npMean:
-	print(f"NP's mean Won! \n"
-	      f"It took just {npMean}s \n"
-	      f"While Py took {pyMean}s \n")
+    print(
+        f"NP's mean Won! \n" f"It took just {npMean}s \n" f"While Py took {pyMean}s \n"
+    )
 else:
-	print(f"Draw!")
+    print(f"Draw!")
 
 data = fluxes
 
 start = time.perf_counter()
-mean = sum(data)/len(data)
+mean = sum(data) / len(data)
 seconds = time.perf_counter() - start
 
-print('Python -> That took {:.2f} seconds.'.format(seconds))
+print("Python -> That took {:.2f} seconds.".format(seconds))
 
 start = time.perf_counter()
 meanN = np.mean(data)
 seconds = time.perf_counter() - start
 
-print('Numpy -> That took {:.2f} seconds.'.format(seconds))
+print("Numpy -> That took {:.1f} seconds.".format(seconds))
 
-'''
+"""
 Python is winning for array of sizes up to 100.
 Over that, Numpy takes over python.
-'''
-
+"""

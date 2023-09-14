@@ -4,75 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1e9f6b6b-f79b-435f-b023-9ee90ac3536a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week1/Week1C_Calculating_The_Median_Stack/4_Optimising/1_SavingMemory.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week1/Week1C_Calculating_The_Median_Stack/4_Optimising/2_HistogramMethods.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week1/Week1C_Calculating_The_Median_Stack/4_Optimising/3_theBinapproxAlgorithm.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week2/Week2A_A naive_cross-matcher/2_Measuring_On_The_Sky/1_AngularDistances.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week2/Week2A_A naive_cross-matcher/2_Measuring_On_The_Sky/2_CalculatingAngularDistance.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week2/Week2A_A naive_cross-matcher/2_Measuring_On_The_Sky/3_HeavenlyAngles.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week2/Week2A_A naive_cross-matcher/3_Astronomy_Catalogues/1_LoadingCatalogues.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week2/Week2A_A naive_cross-matcher/3_Astronomy_Catalogues/2_AT20G-BSS-Catalogue.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week2/Week2A_A naive_cross-matcher/3_Astronomy_Catalogues/3._SuperCOSMOS-All-Sky-Catalogue.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week2/Week2A_A naive_cross-matcher/3_Astronomy_Catalogues/4_PlayingWithSpaceCats.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week2/Week2A_A naive_cross-matcher/3_Astronomy_Catalogues/bss.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week2/Week2A_A naive_cross-matcher/A_Labelling_The_Sky/1_Introduction.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week2/Week2A_A naive_cross-matcher/A_Labelling_The_Sky/2_EquatorialCoordinates.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Data Driven Astronomy-UofSydney&amp;Coursera.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/DataDrivenAstronomyCoursera.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+    <list default="true" id="1e9f6b6b-f79b-435f-b023-9ee90ac3536a" name="Changes" comment="refactor to naming conventions">
+      <change afterPath="$PROJECT_DIR$/Week2/Week2A_A naive_cross-matcher/C_Astronomy_Catalogues/super.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week2/Week2A_A naive_cross-matcher/D_Crossmatching/A_FindClosest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week2/Week2A_A naive_cross-matcher/D_Crossmatching/B_a_Full_Cross-Matching_Program.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week2/Week2A_A naive_cross-matcher/D_Crossmatching/C_Crossmatch.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week2/Week2A_A naive_cross-matcher/D_Crossmatching/bss.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week2/Week2A_A naive_cross-matcher/D_Crossmatching/super.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week2/Week2B_Cross-matching_with_k-d_trees/A_Rad-vs-Deg_Optimisation/A_Introduction.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week 1/Week 1B: Calculating the mean stack/2. NumPy arrays and file IO/1. IntroductionToNumpyArrays.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week1/Week1B_Calculating_The_Mean_Stack/2_NumPy_Arrays_and_File_IO/1_IntroductionToNumpyArrays.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week 1/Week 1B: Calculating the mean stack/2. NumPy arrays and file IO/2. ReadingStringsFromCSV_Files.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week1/Week1B_Calculating_The_Mean_Stack/2_NumPy_Arrays_and_File_IO/2_ReadingStringsFromCSV_Files.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week 1/Week 1B: Calculating the mean stack/2. NumPy arrays and file IO/3. ReadingNumbersFromCSV_Files.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week1/Week1B_Calculating_The_Mean_Stack/2_NumPy_Arrays_and_File_IO/3_ReadingNumbersFromCSV_Files.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week 1/Week 1B: Calculating the mean stack/2. NumPy arrays and file IO/4. ReadingA_NumpyArrayFromA_CSV.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week1/Week1B_Calculating_The_Mean_Stack/2_NumPy_Arrays_and_File_IO/4_ReadingA_NumpyArrayFromA_CSV.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week 1/Week 1B: Calculating the mean stack/2. NumPy arrays and file IO/5. MeanOfA_1D_Array.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week1/Week1B_Calculating_The_Mean_Stack/2_NumPy_Arrays_and_File_IO/5_MeanOfA_1D_Array.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week 1/Week 1B: Calculating the mean stack/2. NumPy arrays and file IO/data.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Week1/Week1B_Calculating_The_Mean_Stack/2_NumPy_Arrays_and_File_IO/data.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week 1/Week 1B: Calculating the mean stack/3. More on NumPy arrays/1. NumpyArray: ElementWiseOperations.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week1/Week1B_Calculating_The_Mean_Stack/3_More_on_NumPy_Arrays/1. NumpyArray: ElementWiseOperations.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week 1/Week 1B: Calculating the mean stack/3. More on NumPy arrays/2. NumpyArrayOperations.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week1/Week1B_Calculating_The_Mean_Stack/3_More_on_NumPy_Arrays/2_NumpyArrayOperations.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week 1/Week 1B: Calculating the mean stack/3. More on NumPy arrays/3. MeanOfA_SetOfSignals.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week1/Week1B_Calculating_The_Mean_Stack/3_More_on_NumPy_Arrays/3_MeanOfA_SetOfSignals.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week 1/Week 1B: Calculating the mean stack/3. More on NumPy arrays/data1.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Week1/Week1B_Calculating_The_Mean_Stack/3_More_on_NumPy_Arrays/data1.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week 1/Week 1B: Calculating the mean stack/3. More on NumPy arrays/data2.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Week1/Week1B_Calculating_The_Mean_Stack/3_More_on_NumPy_Arrays/data2.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week 1/Week 1B: Calculating the mean stack/3. More on NumPy arrays/data3.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Week1/Week1B_Calculating_The_Mean_Stack/3_More_on_NumPy_Arrays/data3.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week 1/Week 1B: Calculating the mean stack/3. More on NumPy arrays/data4.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Week1/Week1B_Calculating_The_Mean_Stack/3_More_on_NumPy_Arrays/data4.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week 1/Week 1B: Calculating the mean stack/3. More on NumPy arrays/data5.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Week1/Week1B_Calculating_The_Mean_Stack/3_More_on_NumPy_Arrays/data5.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week 1/Week 1B: Calculating the mean stack/3. More on NumPy arrays/data6.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Week1/Week1B_Calculating_The_Mean_Stack/3_More_on_NumPy_Arrays/data6.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week 1/Week 1B: Calculating the mean stack/4. Introduction to FITS files/1. WorkingWithFITS_Files.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week1/Week1B_Calculating_The_Mean_Stack/4_Introduction_to_FITS files/1_WorkingWithFITS_Files.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week 1/Week 1B: Calculating the mean stack/4. Introduction to FITS files/2. ReadingInFITS_File.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week1/Week1B_Calculating_The_Mean_Stack/4_Introduction_to_FITS files/2_ReadingInFITS_File.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week 1/Week 1B: Calculating the mean stack/4. Introduction to FITS files/3. VisualisingFITS_Images.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week1/Week1B_Calculating_The_Mean_Stack/4_Introduction_to_FITS files/3_VisualisingFITS_Images.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week 1/Week 1B: Calculating the mean stack/4. Introduction to FITS files/4. ReadA_FITS_File.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week1/Week1B_Calculating_The_Mean_Stack/4_Introduction_to_FITS files/4_ReadA_FITS_File.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week 1/Week 1B: Calculating the mean stack/4. Introduction to FITS files/5. MeanOfA_SetOfFITS_Files.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week1/Week1B_Calculating_The_Mean_Stack/4_Introduction_to_FITS files/5_MeanOfA_SetOfFITS_Files.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week 1/Week 1B: Calculating the mean stack/4. Introduction to FITS files/image0.fits" beforeDir="false" afterPath="$PROJECT_DIR$/Week1/Week1B_Calculating_The_Mean_Stack/4_Introduction_to_FITS files/image0.fits" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week 1/Week 1B: Calculating the mean stack/4. Introduction to FITS files/image1.fits" beforeDir="false" afterPath="$PROJECT_DIR$/Week1/Week1B_Calculating_The_Mean_Stack/4_Introduction_to_FITS files/image1.fits" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week 1/Week 1B: Calculating the mean stack/4. Introduction to FITS files/image2.fits" beforeDir="false" afterPath="$PROJECT_DIR$/Week1/Week1B_Calculating_The_Mean_Stack/4_Introduction_to_FITS files/image2.fits" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week 1/Week 1B: Calculating the mean stack/4. Introduction to FITS files/image3.fits" beforeDir="false" afterPath="$PROJECT_DIR$/Week1/Week1B_Calculating_The_Mean_Stack/4_Introduction_to_FITS files/image3.fits" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week 1/Week 1B: Calculating the mean stack/4. Introduction to FITS files/image4.fits" beforeDir="false" afterPath="$PROJECT_DIR$/Week1/Week1B_Calculating_The_Mean_Stack/4_Introduction_to_FITS files/image4.fits" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week 1/Week 1C: Calculating the median stack/1. Introducing Median vs Mean/1. Introduction.md" beforeDir="false" afterPath="$PROJECT_DIR$/Week1/Week1C_Calculating_The_Median_Stack/1_Introducing_Median_vs_Mean/1_Introduction.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week 1/Week 1C: Calculating the median stack/1. Introducing Median vs Mean/2. WhyUseTheMedian?.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week1/Week1C_Calculating_The_Median_Stack/1_Introducing_Median_vs_Mean/2_WhyUseTheMedian?.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week 1/Week 1C: Calculating the median stack/1. Introducing Median vs Mean/3. CalculatingTheMedian.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week1/Week1C_Calculating_The_Median_Stack/1_Introducing_Median_vs_Mean/3_CalculatingTheMedian.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week 1/Week 1C: Calculating the median stack/1. Introducing Median vs Mean/4. ComparingMedianAndMean.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week1/Week1C_Calculating_The_Median_Stack/1_Introducing_Median_vs_Mean/4_ComparingMedianAndMean.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week 1/Week 1C: Calculating the median stack/2. Built-Ins and Timing/1. TimingMyCode.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week1/Week1C_Calculating_The_Median_Stack/2_Built-Ins_and_Timing/1_TimingMyCode.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week 1/Week 1C: Calculating the median stack/2. Built-Ins and Timing/2. Time-Stat.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week1/Week1C_Calculating_The_Median_Stack/2_Built-Ins_and_Timing/2_Time-Stat.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week 1/Week 1C: Calculating the median stack/3. Memory/1. TimeIsntTheOnlyIssue.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week1/Week1C_Calculating_The_Median_Stack/3_Memory/1_TimeIsntTheOnlyIssue.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week 1/Week 1C: Calculating the median stack/3. Memory/2. MemoryOfNumpyArrays.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week1/Week1C_Calculating_The_Median_Stack/3_Memory/2_MemoryOfNumpyArrays.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week 1/Week 1C: Calculating the median stack/3. Memory/3. ScaleUpArrays.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week1/Week1C_Calculating_The_Median_Stack/3_Memory/3_ScaleUpArrays.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week 1/Week 1C: Calculating the median stack/3. Memory/4. CostOfTheMedian.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week1/Week1C_Calculating_The_Median_Stack/3_Memory/4_CostOfTheMedian.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week 1/Week 1C: Calculating the median stack/3. Memory/image0.fits" beforeDir="false" afterPath="$PROJECT_DIR$/Week1/Week1C_Calculating_The_Median_Stack/3_Memory/image0.fits" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week 1/Week 1C: Calculating the median stack/3. Memory/image1.fits" beforeDir="false" afterPath="$PROJECT_DIR$/Week1/Week1C_Calculating_The_Median_Stack/3_Memory/image1.fits" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week 1/Week 1C: Calculating the median stack/3. Memory/image2.fits" beforeDir="false" afterPath="$PROJECT_DIR$/Week1/Week1C_Calculating_The_Median_Stack/3_Memory/image2.fits" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week 1/Week 1C: Calculating the median stack/3. Memory/image3.fits" beforeDir="false" afterPath="$PROJECT_DIR$/Week1/Week1C_Calculating_The_Median_Stack/3_Memory/image3.fits" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week 1/Week 1C: Calculating the median stack/3. Memory/image4.fits" beforeDir="false" afterPath="$PROJECT_DIR$/Week1/Week1C_Calculating_The_Median_Stack/3_Memory/image4.fits" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week 1/Week 1C: Calculating the median stack/4. Optimising/1. SavingMemory.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week 2/Week 2A/1. Labelling the Sky/1. Introduction.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week 2/Week 2A/1. Labelling the Sky/2. EquatorialCoordinates.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week 2/Week 2A/1. Labelling the Sky/3. Coordinates: RightAscension.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week2/Week2A_A naive_cross-matcher/A_Labelling_The_Sky/3_CoordinatesRightAscension.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week 2/Week 2A/1. Labelling the Sky/4. Declination.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week2/Week2A_A naive_cross-matcher/A_Labelling_The_Sky/4_CoordinatesDeclination.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week 2/Week 2A/1. Labelling the Sky/5. ConvertToDecimalDegrees.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week2/Week2A_A naive_cross-matcher/A_Labelling_The_Sky/ConvertToDecimalDegrees.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week 2/Week 2A/1. Labelling the Sky/Ra_and_dec_demo.gif" beforeDir="false" afterPath="$PROJECT_DIR$/Week2/Week2A_A naive_cross-matcher/A_Labelling_The_Sky/Ra_and_dec_demo.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week 2/Week 2A/2. Measuring On The Sky/1. AngularDistances.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week1/Week1B_Calculating_The_Mean_Stack/B_NumPy_Arrays_and_File_IO/A_IntroductionToNumpyArrays.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week1/Week1B_Calculating_The_Mean_Stack/B_NumPy_Arrays_and_File_IO/A_IntroductionToNumpyArrays.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week1/Week1B_Calculating_The_Mean_Stack/B_NumPy_Arrays_and_File_IO/C_ReadingNumbersFromCSV_Files.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week1/Week1B_Calculating_The_Mean_Stack/B_NumPy_Arrays_and_File_IO/C_ReadingNumbersFromCSV_Files.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week1/Week1C_Calculating_The_Median_Stack/B_Built-Ins_and_Timing/A_TimingMyCode.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week1/Week1C_Calculating_The_Median_Stack/B_Built-Ins_and_Timing/A_TimingMyCode.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week2/Week2A_A naive_cross-matcher/C_Astronomy_Catalogues/D_PlayingWithSpaceCats.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week2/Week2A_A naive_cross-matcher/C_Astronomy_Catalogues/D_PlayingWithSpaceCats.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,59 +32,66 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitLabMergeRequestFiltersHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPENED&quot;,
+    &quot;assignee&quot;: {
+      &quot;type&quot;: &quot;org.jetbrains.plugins.gitlab.mergerequest.ui.filters.GitLabMergeRequestsFiltersValue.MergeRequestsMemberFilterValue.MergeRequestsAssigneeFilterValue&quot;,
+      &quot;username&quot;: &quot;NeuHix&quot;,
+      &quot;fullname&quot;: &quot;Sachin Saurav&quot;
+    }
+  }
+}</component>
+  <component name="GitLabMergeRequestsSettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;first&quot;: &quot;git@gitlab.com:NeuHix/ddac.git&quot;,
+    &quot;second&quot;: &quot;1e709e02-c297-4c47-bece-4640e8c19d63&quot;
+  }
+}</component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 6
+}</component>
   <component name="ProjectId" id="2QyjQ8LuPagKNoHVnOjtTfgJIZe" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "dart.analysis.tool.window.visible": "false",
-    "last_opened_file_path": "/home/arctrus/PycharmProjects/DataDrivenAstronomyCoursera/Week 2/Week 2A/3. Astronomy Catalogues",
-    "settings.editor.selected.configurable": "preferences.keymap"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
+    &quot;deletionFromPopupRequiresConfirmation&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/arctrus/PycharmProjects/DataDrivenAstronomyCoursera/Week 2/Week 2A/3. Astronomy Catalogues&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;settings.sync&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/Week 2/Week 2A/3. Astronomy Catalogues" />
     </key>
-  </component>
-  <component name="RunManager">
-    <configuration name="__init__" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="DataDrivenAstronomyCoursera" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Week 2/Week 2A/1. Labelling the Sky" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Week 2/Week 2A/1. Labelling the Sky/__init__.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Python.__init__" />
-      </list>
-    </recent_temporary>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Week2/Week2B_Cross-matching_with_k-d_trees" />
+      <recent name="$PROJECT_DIR$/Week2" />
+      <recent name="$PROJECT_DIR$/Week2/Week2A_A naive_cross-matcher/C_Astronomy_Catalogues" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -150,7 +102,18 @@
       <option name="presentableId" value="Default" />
       <updated>1686332699250</updated>
     </task>
+    <task id="LOCAL-00001" summary="refactor to naming conventions">
+      <created>1694088243922</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1694088243922</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="dependencySupport" implementationName="executable:podman" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -162,5 +125,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="refactor to naming conventions" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactor to naming conventions" />
   </component>
 </project>

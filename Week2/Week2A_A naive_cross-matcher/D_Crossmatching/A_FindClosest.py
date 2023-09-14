@@ -34,6 +34,32 @@ def import_super():
     return supList
 
 
+def angular_dist(ra1, d1, ra2, d2):
+    ra1 = np.radians(ra1)
+    d1 = np.radians(d1)
+    ra2 = np.radians(ra2)
+    d2 = np.radians(d2)
+
+    a = np.sin((d1 - d2) / 2) ** 2
+    b = np.cos(d1) * np.cos(d2) * np.sin(np.abs(ra1 - ra2) / 2) ** 2
+    angDis = 2 * np.arcsin(np.sqrt(a + b))
+    angDis = np.degrees(angDis)
+    return angDis
+
+
+def find_closest(catalog, ra, dec):
+    min_dist = np.inf
+    reqID = 0
+
+    for id, ra1, dec1 in catalog:
+        dist = angular_dist(ra1, dec1, ra, dec)
+        if min_dist > dist:
+            min_dist = dist
+            reqID = id
+
+    return reqID, min_dist
+
+
 if __name__ == "__main__":
-    print(import_bss())
-    print(import_super())
+    cat = import_bss()
+    print(find_closest(cat, 32.2, 40.7))

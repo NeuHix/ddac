@@ -5,7 +5,7 @@ finalResult = []
 index = 0
 
 
-for lines in open('2. NumPy arrays and file IO/data.csv'):
+for lines in open('data.csv'):
 	makingListOfLists.append(lines.strip().split(','))
 
 LengthOfList = len(makingListOfLists)

@@ -1,4 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="Black">
+    <option name="enabledOnReformat" value="true" />
+    <option name="enabledOnSave" value="true" />
+    <option name="pathToExecutable" value="/usr/bin/black" />
+    <option name="sdkUUID" value="e2622155-ffd1-4d04-bd2a-7fdfd4dd158b" />
+  </component>
   <component name="ProjectRootManager" version="2" project-jdk-name="Python 3.11 (DataDrivenAstronomyCoursera)" project-jdk-type="Python SDK" />
 </project>
